@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylepage.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <title>loan app</title>
+</head>
+<body>
+    <div class="loan d-flex justify-content-center align-items-center">
+        <div class="content p-4">
+            <div class="mb-3">
+                <form action="">
+                    <label for="" class="fw-bold fs-3">Amount:</label>
+                    <input type="number" class="form-control" id="loanInput" placeholder="Loan Amount">
+                    <label for="" class="fw-bold mt-3 fs-3">Loan Term:</label>
+                    <input type="number" class="form-control" id="yearsIn" placeholder="years">
+                    <div class="butt container d-flex justify-content-center align-items-center"><button class="css-button-shadow-border--sand mt-2 ">Calculate</button> <button class="css-button-shadow-border--sand mt-2 ms-5 btFresh">refresh</button></div>    
+                </form>
+              </div>
+             <div class="output">
+                <div class="history d-flex">
+                    <h3 class="hh">MonthlyPay  (₦):</h3>
+                    <p id="displ1" class="ms-2"></p>
+                   </div>
+                   <hr>
+               <div class="history d-flex">
+                   <h3 class="hh">Total of loan Payment:</h3>
+                   <p id="displ2" class="ms-2"></p>
+               </div>
+               <hr>
+               <div class="history d-flex">
+                   <h3 class="hh">Total Interest: </h3>
+                   <p id="displ3" class="ms-2"></p>
+               </div>
+               <hr>
+             </div>
+        </div>
+   
+    </div>
+    <div class="tab">
+            
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
